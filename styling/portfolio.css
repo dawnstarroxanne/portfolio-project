@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #be7575;
+  --secondary-color: #f2eee5;
   --heading-font-family: playfair display, serif;
   --default-font-family: poppins, serif;
 }
@@ -58,11 +58,12 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
-.content-container {
-  padding: 60px 20px;
+.content-container img {
+  width: 400px;
+  border: 1px solid #be7575;
 }
 
 .content h1 {
@@ -78,7 +79,6 @@ p {
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
-
   font-family: var(--default-font-family);
 }
 
@@ -195,12 +195,17 @@ footer .social-links a:hover {
     font-size: 26px;
   }
   .project-description {
-    padding: 0;
     text-align: center;
+    padding: 0;
   }
-  content {
+  .content-container {
     text-align: center;
     padding: 0;
+    display: block;
+    margin: 0 auto;
+  }
+  .content-container img {
+    width: 300px;
   }
   nav a {
     font-size: 14px;
