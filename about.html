@@ -26,18 +26,19 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styling/portfolio.css" />
+    <meta name="description" content="Dawn is a front-end engineer based in Portugal, she has worked on a few projects such as a dictionary app, a weather app and is currently developing a website for a b&b.">
     <title>About Dawn</title>
   </head>
   <body>
         <div class="container">
     <nav class="d-flex justify-content-between">
-      <a href="/index.html" class="logo d-none d-md-block">Dawn Roxanne</a>
+      <a href="/index.html" class="logo d-none d-md-block" title="homepage">Dawn Roxanne</a>
        <a href="/index.html" class="logo d-block d-md-none">DR</a>
       <ul>
-        <li class="active"><a href="/index.html">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-        <li><a href="/work.html">My work</a></li>
+        <li><a href="/index.html" title="homepage">Home</a></li>
+        <li class="active"><a href="/about.html" title="about dawn">About</a></li>
+        <li><a href="/contact.html" title="contact dawn">Contact</a></li>
+        <li><a href="/work.html" title="dawns work">My work</a></li>
       </ul>
     </nav>
     <div class="content-container container">
@@ -52,7 +53,7 @@
               CSS and making websites SEO friendly. I am ready for a career
               change should the right opportunity present itself.
             </p>
-            <a href="#" class="btn btn-branding">See my projects</a>
+            <a href="/work.html" class="btn btn-branding mb-5">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -63,6 +64,22 @@
           />
         </div>
       </div>
+          <footer class="container">
+      <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
+        <h3>Work Inquiry</h3>
+        <p class="text-muted">Let's work together</p></div>
+        <div> <a href="/contact.html" class="btn btn-branding" title="contact dawn">Contact me</a>
+      </div> 
+    </div>
+      <div class="d-flex justify-content-center mb-5">
+      <a href="mailto:dawnstarroxanne@gmail.com" class="email-link" title="email dawn">dawnstarroxanne@gmail.com</a>
+      </div>
+      <div class="social-links text-center mb-5">
+      <a href="https://www.instagram.com/dawnstarroxanne/" target="_blank" title="My Instagram"><i class="fa-brands fa-instagram"></i></a><a href="https://github.com/dawnstarroxanne" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+    </div>
+    <p class="text-center mt-4">This project was coded by Dawn Roxanne, and <a href="https://github.com/dawnstarroxanne/portfolio-project" target="_blank">open-sourced.</a></p>
+</footer>
     </div>
   </body>
 </html>
