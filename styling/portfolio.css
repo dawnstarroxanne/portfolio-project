@@ -211,4 +211,7 @@ footer .social-links a:hover {
     font-size: 14px;
     margin: 5px;
   }
+  .open-source p {
+    font-size: 12px;
+  }
 }
